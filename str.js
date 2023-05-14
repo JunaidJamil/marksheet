@@ -73,16 +73,16 @@ else{
    let percentage =(totals/400)*100;
 
 
-   if(percentage<100 && percentage>=90){
+   if(percentage<=100 && percentage>=80){
     document.getElementById("grd").innerHTML = "A+"
     }
-    else if(percentage<90 && percentage>=80){
+    else if(percentage<80 && percentage>=70){
         document.getElementById("grd").innerHTML = "A"
     }
-    else if (percentage<80 && percentage>=70){
+    else if (percentage<70 && percentage>=60){
         document.getElementById("grd").innerHTML = "B"
     }
-    else if (percentage<70 && percentage>=60){
+    else if (percentage<60 && percentage>=50){
         document.getElementById("grd").innerHTML = "C"
     }
     else{
